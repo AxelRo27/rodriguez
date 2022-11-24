@@ -1,0 +1,212 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80), rgba(90, 40, 90, 0.80)), url("../img/comidafondo.png");
+    
+}
+*{
+
+margin: 0;
+padding: 0;
+}
+/*----Titulo----*/
+
+.hero{
+font-family: 'Tangerine', serif;
+font-size: 48px;
+text-shadow: 4px 4px 4px rgb(156, 156, 154);
+color: #ffd700;
+font-style: oblique;
+font-size: 100px;
+text-align: center;
+}
+
+
+/*----Nav----*/
+
+
+
+.logo{
+width: 170px;
+cursor: pointer;
+}
+
+.navbar{
+width: 80%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+}
+
+.navbar ul li a{
+text-decoration: none;
+color: white;
+font-family: fantasy, "sans-serif";
+font-size: 1.2rem;
+}
+
+.navbar ul li::before {
+content: "";
+height: 3px;
+width: 0%;
+background: yellow;
+position: absolute;
+left: 0;
+bottom: -12px;
+transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before {
+    width: 100%;
+}
+
+/*----Segundo Titulo----*/
+.titulo{ 
+color: #ffff;
+font-size: 20px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+text-align: center;
+}
+/*-----parrafo debajo de las fotos----*/
+.h4 .parrafo2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+font-style: italic;
+color: rgb(227, 252, 0);
+justify-content: center;
+text-align: center;
+}
+
+
+#nuestro-menu{
+text-align: center;
+}
+
+/*----Botones--menu----*/
+
+button{
+font-size: 1.25em;
+font-weight: bold;
+padding: 10px 30px;
+border-radius: 5px;
+border: 2px solid rgba(5, 10, 5, 0.80);
+box-shadow: 2px 2px 10px rgba(5, 10, 5, 0.80);
+color: white;
+background-color: blue;
+text-align: center;
+}
+button:hover{
+background-color: rgb(11, 11, 170);
+}
+/*--carta---*/
+
+.carta{
+padding: 1rem;
+}
+
+
+/*¨------Me-encontras-en---*/
+
+.h4{
+color: antiquewhite;
+font-size: 20px;
+text-align: center;
+}
+
+iframe{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.h2{
+color: antiquewhite;
+font-size: 40px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+color: lightblue;
+font-size: 30px;
+}
+p{
+color: lightblue;
+}
+
+/*---Imagenes--*/
+
+.img div{
+display: flex;
+flex-flow: wrap;
+justify-content: center;
+}
+
+.imagenes img{
+    max-width: 400;
+    padding: 1rem;
+}
+
+.img .img1{
+background-size: cover;
+background-position: center;
+padding: 3px ;
+margin: 3px 10px;
+}
+.img .img2{
+margin: 3px;
+padding: 3px;
+width: 34%;
+height: 29%;
+background-size: contain;
+background-position: center;
+
+}
+.img .img3{
+background-size: contain;
+background-position: center;
+margin: 3px;
+padding: 3px;
+width: 39%;
+height: 35%;
+}
+
+/*----Mapa----*/
+
+/*----Redes sociales----*/
+
+.parrafo{
+color: rgb(238, 255, 0);
+font-size: 200%;
+}
+/*----Footer----*/
+
+footer{
+
+text-align: center;
+margin: 0%;
+padding: 0%;
+}
+
+.top{
+color: rgb(235, 235, 235);
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
